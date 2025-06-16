@@ -1,4 +1,4 @@
-/* Swap 2 variables using temp variable start */
+/* Swap 2 variables using temp variable */
 const swapUsingTemp = () => {
     let a = 5;
     let b = 6;
@@ -12,7 +12,8 @@ const swapUsingTemp = () => {
 }
 
 swapUsingTemp();
-/* Swap 2 variables using temp variable end */
+
+/* ----------------- */
 
 
 /* Swap 2 variables using Math start */
@@ -28,4 +29,18 @@ const swapUsingMath = () => {
 }
 
 swapUsingMath();
-/* Swap 2 variables using Math end */
+
+/* ----------------- */
+
+
+/* Swap 2 variables using Array Destruturing */
+const swapUsingArrayDestructuring = () => {
+    let a = 10;
+    let b = 13;
+    console.log('The orginal a & b are ', a, b);
+
+    [b, a] = [a, b];
+    console.log('After Swapping, a and b are ', a, b);
+}
+
+swapUsingArrayDestructuring();
