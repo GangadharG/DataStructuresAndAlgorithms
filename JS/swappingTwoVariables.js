@@ -29,7 +29,7 @@ const swapUsingMath = () => {
 }
 
 swapUsingMath();
-
+// Works only with numbers, There can be issues with floating point numbers
 /* ----------------- */
 
 
@@ -46,3 +46,8 @@ const swapUsingArrayDestructuring = () => {
 swapUsingArrayDestructuring();
 
 /* ----------------- */
+
+/* 
+Is there any other ways? can I expolore?
+Yes, We can swap using Bitwise XOR (This works only for integers)
+*/
