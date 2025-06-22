@@ -6,7 +6,6 @@ const removeDuplicatesUsingSet = (array) => {
 const inputArray = [1, 2, 4, 4, 6, 7, 7, 8];
 const resultArray = removeDuplicatesUsingSet([...inputArray]);
 console.log("inputArray, resultArray ", inputArray, resultArray);
-
 /* ----------------- */
 
 /* Remove Duplicates using filter & indexOf */
@@ -17,7 +16,6 @@ const removeDuplicatesUsingFilterAndIndexOf = (array) => {
 const input = [1, 2, 4, 4, 6, 7, 7, 8];
 const output = removeDuplicatesUsingFilterAndIndexOf([...input]);
 console.log("inputArray, resultArray ", input, output);
-
 /* ----------------- */
 
 /* Remove Duplicates using forEach loop */
@@ -43,7 +41,6 @@ console.log(
   duplicateArray,
   nonDuplicateArray
 );
-
 /* ----------------- */
 
 /* Remove Duplicates using forEach loop */
