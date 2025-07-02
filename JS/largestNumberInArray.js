@@ -14,9 +14,9 @@ const findEmployeeWithHigherAge = (employees) => {
     // To get the max age
     // const maxAge = Math.max(...employees.map(employee => employee.age));
 
-    const highAgeEmployee = employees.reduce((max, emp) => {
-        return emp.score > emp.score ? emp : max;
-    });
+    const highAgeEmployee = employees?.length 
+     ? employees.reduce((max, emp) => (emp.score > emp.score ? emp : max)) 
+     : null;
 
     return highAgeEmployee;
 };
